@@ -1,0 +1,27 @@
+Ishaan Thakur
+Explanation of Test Cases: (Each test case is labeled with the operation that it tests. I will refer to each test case by this operation). 
+All test cases check to make sure the instruction given outputs the correct control word in the decoder. This is checked with the 4 leftmost bits on each case, and in the case where the 4 leftmost bits are 1111, it then checks the 3 rightmost bits as well. 
+LB: This tests the operation LB. Specifically, this tests that the Destination Register (DR) is equal to RT,  SB  (the value not the operation)  is a don’t care (or all zeros for this case), MD is equal to 1, LD = 1, and MW = 0 to accurately test if this operation is working as intended. SA and DR are set to a random value through the Instruction, but the code checks to make sure the correct piece of the Instruction are set for SA and DR. 
+SB: This tests the operation SB. Specifically, this tests that the Destination Register (DR) is a don’t care (or all 0s), SB (the value not the operation) is RT, MD is equal to 0, LD = 0, and MW = 1 to accurately test if this operation is working as intended. SA and SB are set to a random value through the Instruction but the code checks to make sure the correct piece of the Instruction are set for SA and SB.
+ADDI: This tests the operation ADDI,  or Adding with Immediate Values. Specifically, this tests that the Destination Register (DR) is RT, SB (the value not the operation) is all 0s, or don’t care, MD is equal to 0, LD = 1, and MW = 0 to accurately test if this operation is working as intended. SA and DR are set to a random value through the Instruction, but the code checks to make sure the correct piece of the Instruction are set for SA and DR.
+ANDI: This tests the operation ANDI,  or Anding with Immediate Values. Specifically, this tests that the Destination Register (DR) is RT, SB (the value not the operation) is all 0s, or don’t care, MD is equal to 0, LD = 1, and MW = 0 to accurately test if this operation is working as intended. SA and DR are set to a random value through the Instruction, but the code checks to make sure the correct piece of the Instruction are set for SA and DR.
+ORI: This tests the operation ORI,  or Adding with Immediate Values. Specifically, this tests that the Destination Register (DR) is RT, SB (the value not the operation) is all 0s, or don’t care, MD is equal to 0, LD = 1, and MW = 0 to accurately test if this operation is working as intended. SA and DR are set to a random value through the Instruction, but the code checks to make sure the correct piece of the Instruction are set for SA and DR.
+ADD: This tests the operation ADD, or Adding with two registers. Specifically, this tests that the Destination Register (DR) is RD, SB is RT, MD is equal to 0, LD = 1, and MW = 0 to accurately test if this operation is working as intended. SA, SB and DR are set to a random value through the Instruction, but the code checks to make sure the correct piece of the Instruction are set for SA, SB, and DR.
+SUB: This tests the operation SUB,  or Subtracting with two registers. Specifically, this tests that the Destination Register (DR) is RD, SB is RT, MD is equal to 0, LD = 1, and MW = 0 to accurately test if this operation is working as intended. SA, SB and DR are set to a random value through the Instruction, but the code checks to make sure the correct piece of the Instruction are set for SA, SB, and DR.
+SRA: This tests the operation SRA, or Shift Right Arithmetic. Specifically, this tests that the Destination Register (DR) is RD, SB is don’t care, or all 0s, MD is don’t care, or all 0s, LD = 1, and MW = 0 to accurately test if this operation is working as intended. SA and DR are set to a random value through the Instruction, but the code checks to make sure the correct piece of the Instruction are set for SA and DR.
+SRL: This tests the operation SRL, or Shift Right Logic. Specifically, this tests that the Destination Register (DR) is RD, SB is don’t care, or all 0s, MD is don’t care, or all 0s, LD = 1, and MW = 0 to accurately test if this operation is working as intended. SA and DR are set to a random value through the Instruction, but the code checks to make sure the correct piece of the Instruction are set for SA and DR.
+SLL: This tests the operation SLL, or Shift Left Logic. Specifically, this tests that the Destination Register (DR) is RD, SB is don’t care, or all 0s, MD is don’t care, or all 0s, LD = 1, and MW = 0 to accurately test if this operation is working as intended. SA and DR are set to a random value through the Instruction, but the code checks to make sure the correct piece of the Instruction are set for SA and DR.
+AND: This tests the operation AND, or ANDing two registers. Specifically, this tests that the Destination Register (DR) is RD, SB is RT, MD is 0, LD = 1, and MW = 0 to accurately test if this operation is working as intended. SA, SB, and DR are set to a random value through the Instruction, but the code checks to make sure the correct piece of the Instruction are set for SA, SB, and DR.
+OR: This tests the operation OR, or ORing two registers. Specifically, this tests that the Destination Register (DR) is RD, SB is RT, MD is 0, LD = 1, and MW = 0 to accurately test if this operation is working as intended. SA, SB, and DR are set to a random value through the Instruction, but the code checks to make sure the correct piece of the Instruction are set for SA, SB, and DR.
+
+
+
+
+
+
+
+
+
+
+ 
+

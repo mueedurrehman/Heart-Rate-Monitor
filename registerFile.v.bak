@@ -1,0 +1,40 @@
+module registerFile(CLK,SA,SB,DR,DataA,DataB,D_in);	
+	reg [7:0] REGISTER[0:7]; 
+	
+	input CLK; 
+	input [2:0] SA;
+	input [2:0] SB; 
+	input LD; 
+	input [7:0] DR;
+	input [7:0] D_in; 
+	
+	output [7:0] DataA; 
+	output [7:0] DataB; 
+	
+	assign DataA = REGISTER[SA];
+	assign DataB = REGISTER[SB];
+	
+	always @(posedge CLK)
+	begin
+		if (RESET)
+		begin
+			REGISTER[0]=8'b0; 
+			REGISTER[1]=8'b0; 
+			REGISTER[2]=8'b0; 
+			REGISTER[3]=8'b0; 
+			REGISTER[4]=8'b0; 
+			REGISTER[5]=8'b0; 
+			REGISTER[6]=8'b0; 
+			REGISTER[7]=8'b0; 
+		end 
+		else if (LD)
+		begin
+		REGISTER[DR] = D_in; 
+		end
+		else
+		begin
+		REGISTER=REGISTER;
+		end
+	end
+	
+endmodule 

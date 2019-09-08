@@ -1,0 +1,454 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/simulation/modelsim
+vadder
+Z1 !s110 1541648238
+!i10b 1
+!s100 T@HELcIDOiI^jZ<FO:W<]1
+IX]<jaQ]5n<^@UzQ1HU2NS0
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+Z3 w1541629159
+8C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/adder.v
+FC:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/adder.v
+L0 1
+Z4 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1541648238.734000
+!s107 C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4|C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/adder.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4}
+valu
+R1
+!i10b 1
+!s100 >W[nM4fFOj9ADQOe88LGC1
+I^NH8Q`PJZVX36FY@KoZSE3
+R2
+R0
+Z7 w1541629158
+8C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/alu.v
+FC:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/alu.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1541648238.633000
+!s107 C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4|C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/alu.v|
+!i113 1
+R5
+R6
+vcontrol
+Z8 !s110 1541648240
+!i10b 1
+!s100 NNlTDj20N>S2Odmz1f<mA3
+I]AQE27;WjcbI9`:5ACQ5A0
+R2
+R0
+w1540419329
+8C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/control.v
+FC:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/control.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1541648240.155000
+!s107 C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4|C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/control.v|
+!i113 1
+R5
+R6
+vcpu
+R8
+!i10b 1
+!s100 DRAi=162BWZA>LL===ej<2
+I2YUF`:6hdH4HcXGEzY_1@0
+R2
+R0
+w1541647380
+8C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/cpu.v
+FC:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/cpu.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1541648240.640000
+!s107 C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/cpu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4|C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/cpu.v|
+!i113 1
+R5
+R6
+vdecoder
+Z9 !s110 1541648239
+!i10b 1
+!s100 AZ>35GmgXI@RgQo:[lOdD1
+ITQMoU`:]Dz:d55_UmQcQP0
+R2
+R0
+w1541643954
+8C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/decoder.v
+FC:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/decoder.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1541648239.115000
+!s107 C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4|C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/decoder.v|
+!i113 1
+R5
+R6
+vdual_reg_in
+Z10 !s110 1541648241
+!i10b 1
+!s100 >ILMM3dKUFcXh=Y3m8PV<2
+I9d@DZTChQ5>lWha2`P??90
+R2
+R0
+w1541629165
+8C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/dual_reg_in.v
+FC:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/dual_reg_in.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1541648241.120000
+!s107 C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/dual_reg_in.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4|C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/dual_reg_in.v|
+!i113 1
+R5
+R6
+vfour_to_one_mux
+R1
+!i10b 1
+!s100 Z]=5677PWM3d>k2?U8O>i3
+IGZQm7Mc0c8F^Sc[0;VQzP3
+R2
+R0
+w1540423452
+8C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/four_to_one_mux.v
+FC:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/four_to_one_mux.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1541648238.506000
+!s107 C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/four_to_one_mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4|C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/four_to_one_mux.v|
+!i113 1
+R5
+R6
+vhalt_logic
+R8
+!i10b 1
+!s100 dQ@g3k?TB6^K5FXe8JMk:0
+IoF4f<a0[SfGZ5bDhlRRzD1
+R2
+R0
+w1541647574
+8C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/halt_logic.v
+FC:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/halt_logic.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1541648240.369000
+!s107 C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/halt_logic.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4|C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/halt_logic.v|
+!i113 1
+R5
+R6
+vhex_to_seven_seg
+R9
+!i10b 1
+!s100 lmbeBMe^3FN8Ah=cfj3gV0
+IVR8EkBMJAaN<QVT>z0zR_3
+R2
+R0
+w1541629164
+8C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/hex_to_seven_seg.v
+FC:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/hex_to_seven_seg.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1541648238.991000
+!s107 C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/hex_to_seven_seg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4|C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/hex_to_seven_seg.v|
+!i113 1
+R5
+R6
+vlab4
+R8
+!i10b 1
+!s100 MVzQO@bXe_<NZd77B]OS]3
+I>U1GHn[1=9R1k:YARA8D=0
+R2
+R0
+w1541648195
+8C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/lab4.v
+FC:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/lab4.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1541648239.994000
+!s107 C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/lab4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4|C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/lab4.v|
+!i113 1
+R5
+R6
+vlab4_test
+R10
+!i10b 1
+!s100 YHVGc2K1h>caj9PK<;TUN1
+I94Xl52c3Yi=IP9K[NWc<S1
+R2
+R0
+Z11 w1541629163
+8C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/lab4_test.v
+FC:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/lab4_test.v
+L0 20
+R4
+r1
+!s85 0
+31
+!s108 1541648241.463000
+!s107 C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/lab4_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4|C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/lab4_test.v|
+!i113 1
+R5
+R6
+vlab4_top
+R8
+!i10b 1
+!s100 EQC;XAY2JGEN00ZQ]h_Yj0
+IeVk3V2`j03S03G9EL8fDU1
+R2
+R0
+R11
+8C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/lab4_top.v
+FC:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/lab4_top.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1541648240.958000
+!s107 C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/lab4_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4|C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/lab4_top.v|
+!i113 1
+R5
+R6
+vlab4dram
+R1
+!i10b 1
+!s100 dXLfT1Z<9lA0Ez0HLDkiW2
+InFMIYi7@6oaRFG@IOS;f91
+R2
+R0
+w1541629161
+8C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/lab4dram.v
+FC:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/lab4dram.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1541648238.861000
+!s107 C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/lab4dram.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4|C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/lab4dram.v|
+!i113 1
+R5
+R6
+vlab4iram1G
+R10
+!i10b 1
+!s100 0W]8:R7Y4QCj0BXj^9dQ_3
+IKm;dJc5NZ3TlXMCMg:9@P2
+R2
+R0
+w1541648052
+8C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/lab4iram1g.v
+FC:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/lab4iram1g.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1541648241.305000
+!s107 C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/lab4iram1g.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4|C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/lab4iram1g.v|
+!i113 1
+R5
+R6
+nlab4iram1@g
+vlogical
+R1
+!i10b 1
+!s100 ZcB`>7BZjg>dg;V04e5ai0
+IA15C85XEB6Ze3A3]SQE0A1
+R2
+R0
+R7
+8C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/logical.v
+FC:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/logical.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1541648238.329000
+!s107 C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/logical.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4|C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/logical.v|
+!i113 1
+R5
+R6
+vpclock
+R9
+!i10b 1
+!s100 ?=cOXl9;e9]66EjzI9[BU0
+IT@j9hYHeW1mDhz32=eDMW1
+R2
+R0
+R3
+Z12 8C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/var_clk.v
+Z13 FC:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/var_clk.v
+L0 52
+R4
+r1
+!s85 0
+31
+Z14 !s108 1541648239.491000
+Z15 !s107 C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/var_clk.v|
+Z16 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4|C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/var_clk.v|
+!i113 1
+R5
+R6
+vregisterFile
+R8
+!i10b 1
+!s100 ll@M`8o<Z1ka8^1Bo935T2
+I[]D8idLh>TPZMZ4;RSmk`0
+R2
+R0
+w1541643501
+8C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/registerFile.v
+FC:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/registerFile.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1541648240.788000
+!s107 C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/registerFile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4|C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/registerFile.v|
+!i113 1
+R5
+R6
+nregister@file
+vshifter
+R9
+!i10b 1
+!s100 TIlHkAgcYdZRXRXjX5<@10
+IgP?gLYiRgK8GQU;;P<d7b0
+R2
+R0
+R7
+8C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/shifter.v
+FC:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/shifter.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1541648239.821000
+!s107 C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/shifter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4|C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/shifter.v|
+!i113 1
+R5
+R6
+vsignExtend
+R9
+!i10b 1
+!s100 a1S8hGHXW7`KD@QC2lAEP2
+IVXZ:CFdiRmCID0BC5P]681
+R2
+R0
+w1541637237
+8C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/signExtend.v
+FC:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/signExtend.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1541648239.663000
+!s107 C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/signExtend.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4|C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/signExtend.v|
+!i113 1
+R5
+R6
+nsign@extend
+vtwo_to_one_mux
+R9
+!i10b 1
+!s100 mD^`Uj`XVeFHYVMWRJQ<K3
+I>?BB=Q;2@k^11S`5K:7HV2
+R2
+R0
+w1540419340
+8C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/two_to_one_mux.v
+FC:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/two_to_one_mux.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1541648239.321000
+!s107 C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/two_to_one_mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4|C:/Users/ericx/OneDrive/Desktop/ECE 2300/Lab 4/lab4PrelabCase/lab4/two_to_one_mux.v|
+!i113 1
+R5
+R6
+vvar_clk
+R9
+!i10b 1
+!s100 I74T7433gZW:e1zM[;`U`3
+I1b59ng>YkTTOX9ZKnhHWW0
+R2
+R0
+R3
+R12
+R13
+L0 1
+R4
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 1
+R5
+R6
